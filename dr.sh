@@ -1,10 +1,11 @@
 #!/bin/bash
-# Copyright (C) 2018 Mohd Faraz <mohd.faraz.abc@gmail.com>
-# Copyright (C) 2018 PitchBlackTWRP <pitchblacktwrp@gmail.com>
-# Copyright (C) 2018 Darkstar085 <sipunkumar85@gmail.com>
 # Copyright (C) 2015 Paranoid Android Project
-# Copyright (C) 2018 Sweeto143
 # Copyright (C) 2018 ATG Droid
+# Copyright (C) 2018 PitchBlackTWRP <pitchblacktwrp@gmail.com>
+# Copyright (C) 2018 Mohd Faraz <mohd.faraz.abc@gmail.com>
+# Copyright (C) 2018 Sipun Ku Mahanta <sipunkumar85@gmail.com>
+# Copyright (C) 2018 Sweeto143@github / Darkstar085@XDA
+
 
 # Custom build script
 #
@@ -20,7 +21,6 @@
 # Please maintain this if you use this script or any part of it
 #
 # PA Colors
-# red = errors, cyan = warnings, green = confirmations, blue = informational
 # plain for generic text, bold for titles, reset flag at each end of line
 # plain blue should not be used for readability reasons - use plain cyan instead
 CLR_RST=$(tput sgr0)                        ## reset flag
@@ -100,12 +100,12 @@ zip -r ${ZIP_NAME}.zip *
 BUILD_RESULT_STRING="BUILD SUCCESSFUL"
 echo -e "${CLR_BLD_PPL}- Compressing Zip Done...${CLR_RST}"
 echo -e ""
-echo -e "${CLR_BLD_YLW}██████╗  █████╗ ██████╗ ██╗  ██╗${CLR_RST}"
-echo -e "${CLR_BLD_CYA}██╔══██╗██╔══██╗██╔══██╗██║ ██╔╝${CLR_RST}"
-echo -e "${CLR_BLD_PPL}██║  ██║███████║██████╔╝█████╔╝ ${CLR_RST}"
-echo -e "${CLR_BLD_GRN}██║  ██║██╔══██║██╔══██╗██╔═██╗ ${CLR_RST}"
-echo -e "${CLR_BLD_BLU}██████╔╝██║  ██║██║  ██║██║  ██╗${CLR_RST}"
-echo -e "${CLR_BLD_RED}╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝${CLR_RST}"
+echo -e "${CLR_BLD_YLW}     		██████╗  █████╗ ██████╗ ██╗  ██╗${CLR_RST}"
+echo -e "${CLR_BLD_CYA}     		██╔══██╗██╔══██╗██╔══██╗██║ ██╔╝${CLR_RST}"
+echo -e "${CLR_BLD_PPL}     		██║  ██║███████║██████╔╝█████╔╝ ${CLR_RST}"
+echo -e "${CLR_BLD_GRN}     		██║  ██║██╔══██║██╔══██╗██╔═██╗ ${CLR_RST}"
+echo -e "${CLR_BLD_BLU}     		██████╔╝██║  ██║██║  ██║██║  ██╗${CLR_RST}"
+echo -e "${CLR_BLD_RED}     		╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝${CLR_RST}"
 echo -e "${CLR_BLD_RED}██████╗ ███████╗ ██████╗ ██████╗ ██╗   ██╗███████╗██████╗ ██╗   ██╗${CLR_RST}"
 echo -e "${CLR_BLD_BLU}██╔══██╗██╔════╝██╔════╝██╔═══██╗██║   ██║██╔════╝██╔══██╗╚██╗ ██╔╝${CLR_RST}"
 echo -e "${CLR_BLD_GRN}██████╔╝█████╗  ██║     ██║   ██║██║   ██║█████╗  ██████╔╝ ╚████╔╝ ${CLR_RST}"
